@@ -66,7 +66,7 @@ App = {
     event.preventDefault();
 
     var petId = parseInt($(event.target).data('id'));
-    web3.eth.getAccounts(async function(error, accounts){
+    web3.eth.getAccounts(function(error, accounts){
       if(error){
         console.log(error);
       }
