@@ -2,6 +2,6 @@ module.exports = {
     port: process.env.PORT,
     files: ["./**/*.{html,htm,css,js}"],
     server:{
-        basrDir:["./src","./build/contracts"]
+        baseDir:["./src","./build/contracts"]
     }
 }
